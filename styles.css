@@ -1,0 +1,116 @@
+.item1 { grid-area: header;
+		background-color: #63B3ED;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+  color: #FFFFFF;}
+.item3 { grid-area: middle;
+padding-left: 120px;
+padding-right: 30px;}
+.item4 { grid-area: right;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.item5 { grid-area: footer;
+  background-color: #2C5282;
+  color: #FFFFFF;
+  padding: 20px;
+padding-left: 120px;}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'middle middle middle middle right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 50px;
+
+}
+
+h1{
+  font-size: 36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+  font-size: 32px;
+  color: #48BB78;
+
+}
+
+.social h3{
+  color: #48BB78;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about h3{
+  color: #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.aboutsec p{
+  background-color: #E2E8F0;
+}
+
+.socialsec p{
+  color: #4299E1;
+}
+
+p{
+  font-size: 18px;
+  color: #2D3748;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",sans-serif;;
+}
+
+ul{
+  color: #2D3748;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",sans-serif;;
+}
+
+.hotdog p{
+	color: #718096;
+}
+.foot p{
+  color: #FFFFFF;
+}
+
+.head p{
+  color: #FFFFFF;
+}
+
+a:visited{
+  color: #4299E1;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active{
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#me{
+	width:170px;
+	height:170px;
+	border-radius: 50%;
+}
+
+#prem{
+	border-radius: 50%;
+	float:left;
+	width:200px;
+	height:200px;
+}
+
+#win{
+	float:right;
+	width:200px;
+	height:200px;
+}
